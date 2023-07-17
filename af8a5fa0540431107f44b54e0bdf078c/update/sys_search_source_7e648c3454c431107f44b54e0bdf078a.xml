@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_motor_vehi_0_crash_details">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </condition>
+        <group/>
+        <name>Motor Vehicle Accident or Incident Report - x_snc_</name>
+        <roles/>
+        <source_table>x_snc_motor_vehi_0_crash_details</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-12 16:31:17</sys_created_on>
+        <sys_id>7e648c3454c431107f44b54e0bdf078a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Motor Vehicle Accident or Incident Report - x_snc_</sys_name>
+        <sys_package display_value="Motor Vehicle Accident or Incident Report" source="x_snc_motor_vehi_0">af8a5fa0540431107f44b54e0bdf078c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Motor Vehicle Accident or Incident Report">af8a5fa0540431107f44b54e0bdf078c</sys_scope>
+        <sys_update_name>sys_search_source_7e648c3454c431107f44b54e0bdf078a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-12 16:31:17</sys_updated_on>
+    </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=7e648c3454c431107f44b54e0bdf078a"/>
+</record_update>

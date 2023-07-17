@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">dd640c3438c4311037bbdf86c76e0af4</canvas>
+        <component display_value="">3a64f550256090d9578ede76158e899c</component>
+        <component_props>{"variant":"header-tertiary","label":"Incident Stats","wontWrap":false,"hasNoMargin":false,"level":"1"}</component_props>
+        <h>3</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-12 16:31:13</sys_created_on>
+        <sys_id>15640c3487c431107fce64e77add62f6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Motor Vehicle Accident or Incident Report" source="x_snc_motor_vehi_0">af8a5fa0540431107f44b54e0bdf078c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Motor Vehicle Accident or Incident Report">af8a5fa0540431107f44b54e0bdf078c</sys_scope>
+        <sys_update_name>par_dashboard_widget_15640c3487c431107fce64e77add62f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-12 17:22:12</sys_updated_on>
+        <visualization/>
+        <w>12</w>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

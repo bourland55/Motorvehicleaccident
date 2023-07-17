@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
+    <sys_search_context_config action="INSERT_OR_UPDATE">
+        <evam_definition display_value="">f78b729b53d801109fa9ddeeff7b1201</evam_definition>
+        <genius_results_limit>1</genius_results_limit>
+        <hit_highlighting>false</hit_highlighting>
+        <name>Motor Vehicle Accident or Incident Report AI Searc</name>
+        <search_engine>ai_search</search_engine>
+        <search_profile display_value="Motor Vehicle Accident or Incident Report search profile">91640c3424c43110db0e68843ab486fa</search_profile>
+        <search_results_limit>10</search_results_limit>
+        <spell_check>true</spell_check>
+        <suggestions_to_show_limit>10</suggestions_to_show_limit>
+        <sys_class_name>sys_search_context_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-12 16:31:14</sys_created_on>
+        <sys_id>55640c3400c43110d32da5fd34d6e8f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Motor Vehicle Accident or Incident Report AI Searc</sys_name>
+        <sys_package display_value="Motor Vehicle Accident or Incident Report" source="x_snc_motor_vehi_0">af8a5fa0540431107f44b54e0bdf078c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Motor Vehicle Accident or Incident Report">af8a5fa0540431107f44b54e0bdf078c</sys_scope>
+        <sys_update_name>sys_search_context_config_55640c3400c43110d32da5fd34d6e8f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-12 16:31:14</sys_updated_on>
+        <ts_index_group/>
+        <view/>
+    </sys_search_context_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=55640c3400c43110d32da5fd34d6e8f5"/>
+</record_update>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="incident_type" table="x_snc_motor_vehi_0_crash_details" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>incident_type</element>
+            <name>x_snc_motor_vehi_0_crash_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-12 14:04:44</sys_created_on>
+            <sys_id>88e22f2c540431107f44b54e0bdf07db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>incident_type</sys_name>
+            <sys_package display_value="Motor Vehicle Accident or Incident Report" source="x_snc_motor_vehi_0">af8a5fa0540431107f44b54e0bdf078c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Motor Vehicle Accident or Incident Report">af8a5fa0540431107f44b54e0bdf078c</sys_scope>
+            <sys_update_name>sys_choice_x_snc_motor_vehi_0_crash_details_incident_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-12 14:04:44</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Solo crash</label>
+            <language>en</language>
+            <name>x_snc_motor_vehi_0_crash_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-12 14:04:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44e22f2c540431107f44b54e0bdf07db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-12 14:04:44</sys_updated_on>
+            <value>solo_crash</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rear End</label>
+            <language>en</language>
+            <name>x_snc_motor_vehi_0_crash_details</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-12 14:04:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04e22f2c540431107f44b54e0bdf07df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-12 14:04:44</sys_updated_on>
+            <value>rear_end</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hit and Run</label>
+            <language>en</language>
+            <name>x_snc_motor_vehi_0_crash_details</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-12 14:04:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44e22f2c540431107f44b54e0bdf07fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-12 14:04:44</sys_updated_on>
+            <value>hit_and_run</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lane Change</label>
+            <language>en</language>
+            <name>x_snc_motor_vehi_0_crash_details</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-12 14:04:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08e22f2c540431107f44b54e0bdf07fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-12 14:04:44</sys_updated_on>
+            <value>lane_change</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vandalism</label>
+            <language>en</language>
+            <name>x_snc_motor_vehi_0_crash_details</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-12 14:04:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8e26f2c540431107f44b54e0bdf0701</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-12 14:04:44</sys_updated_on>
+            <value>vandalism</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
