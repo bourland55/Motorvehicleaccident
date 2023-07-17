@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a553676c540431107f44b54e0bdf07b3" label="Other Vehicle Data" max_length="40" name="x_snc_motor_vehi_0_other_vehicle_data" type="collection">
+        <element label="Driver First Name" max_length="40" name="driver_first_name" type="string"/>
+        <element label="Driver Last Name" max_length="40" name="driver_last_name" type="string"/>
+        <element label="Driver License Number" max_length="40" name="driver_license_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Driver License State" max_length="40" name="driver_license_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AL" sequence="0" value="al"/>
+                <element inactive_on_update="false" label="AK" sequence="1" value="ak"/>
+                <element inactive_on_update="false" label="AZ" sequence="2" value="az"/>
+                <element inactive_on_update="false" label="AR" sequence="3" value="ar"/>
+            </choice>
+        </element>
+        <element label="Driver Middle Name" max_length="40" name="driver_middle_name" type="string"/>
+        <element label="Driver SSN or TIN" max_length="9" name="driver_ssn_or_tin" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

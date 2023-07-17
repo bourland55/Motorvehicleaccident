@@ -18,6 +18,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-07-12 16:31:13</sys_updated_on>
         <theme display_value="Starter Workspace Theme">1d640c3418c431100ac48166f29046f4</theme>
+        <u_original_theme/>
         <ux_app_configuration display_value="Motor Vehicle Accident or Incident Report Config">1d640c3478c431107efa59a8b1c7d2fa</ux_app_configuration>
     </m2m_app_config_theme>
 </record_update>

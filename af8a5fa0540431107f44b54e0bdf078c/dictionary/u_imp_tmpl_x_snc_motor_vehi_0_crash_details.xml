@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b9abffa8548431107f44b54e0bdf077c" extends="sys_import_set_row" label="Imp Tmpl X Snc Motor Vehi 0 Crash Details" max_length="40" name="u_imp_tmpl_x_snc_motor_vehi_0_crash_details" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Assigned to" label="Assigned to" max_length="32" name="u_assigned_to" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date of Incident" label="Date of Incident" max_length="40" name="u_date_of_incident" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Emergency Services" label="Emergency Services" max_length="40" name="u_emergency_services" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Fatalities or Injuries" label="Fatalities or Injuries" max_length="40" name="u_fatalities_or_injuries" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Incident Type" label="Incident Type" max_length="40" name="u_incident_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Priority" label="Priority" max_length="40" name="u_priority" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Property Damage" label="Property Damage" max_length="40" name="u_property_damage" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Seat Belts Used" label="Seat Belts Used" max_length="40" name="u_seat_belts_used" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Short description" label="Short description" max_length="160" name="u_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=State" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Witness or Passenger" label="Witness or Passenger" max_length="40" name="u_witness_or_passenger" type="string"/>
+    </element>
+</database>

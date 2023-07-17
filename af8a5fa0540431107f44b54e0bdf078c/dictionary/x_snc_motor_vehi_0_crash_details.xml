@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8bad17a4540431107f44b54e0bdf07c9" extends="task" label="Crash Details" max_length="40" name="x_snc_motor_vehi_0_crash_details" text_index="true" type="collection">
+        <element label="Date of Incident" max_length="40" name="date_of_incident" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Emergency Services" max_length="40" name="emergency_services" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Fatalities or Injuries" max_length="40" name="fatalities_or_injuries" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Incident Type" max_length="40" name="incident_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Solo crash" sequence="0" value="solo_crash"/>
+                <element inactive_on_update="false" label="Rear End" sequence="1" value="rear_end"/>
+                <element inactive_on_update="false" label="Hit and Run" sequence="2" value="hit_and_run"/>
+                <element inactive_on_update="false" label="Lane Change" sequence="3" value="lane_change"/>
+                <element inactive_on_update="false" label="Vandalism" sequence="4" value="vandalism"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Number of Vehicles" max_length="40" name="number_of_vehicles" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Two" sequence="0" value="two"/>
+                <element inactive_on_update="false" label="Three or more" sequence="1" value="three_or_more"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Property Damage" max_length="40" name="property_damage" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Seat Belts Used" max_length="40" name="seat_belts_used" type="boolean"/>
+        <element label="Vehicle Damage" max_length="250" name="vehicle_damage" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Witness or Passenger" max_length="40" name="witness_or_passenger" type="boolean"/>
+    </element>
+</database>

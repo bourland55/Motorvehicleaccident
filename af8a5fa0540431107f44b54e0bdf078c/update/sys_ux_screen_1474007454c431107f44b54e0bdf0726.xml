@@ -4,7 +4,7 @@
         <app_config display_value="Motor Vehicle Accident or Incident Report Config">1d640c3478c431107efa59a8b1c7d2fa</app_config>
         <description/>
         <event_mappings>[ ]</event_mappings>
-        <macroponent display_value="Crash Details">b764cc3454c431107f44b54e0bdf07d2</macroponent>
+        <macroponent display_value="Crash Details Record Page">b764cc3454c431107f44b54e0bdf07d2</macroponent>
         <macroponent_config>{
   "views" : {
     "type" : "JSON_LITERAL",
@@ -49,7 +49,7 @@
 }</macroponent_config>
         <name>Crash Details Record Page</name>
         <order>100</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <required_translations>[ ]</required_translations>
         <rollback_screen/>
         <screen_condition>table=x_snc_motor_vehi_0_crash_details</screen_condition>
